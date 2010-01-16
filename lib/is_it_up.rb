@@ -14,6 +14,7 @@ module Rack
       else
         status, header, response = @app.call(env)
       end
+      [status, header, response]
     end
   end
 end
