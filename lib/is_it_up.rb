@@ -1,4 +1,6 @@
-require "rack"
+require "bundler"
+Bundler.setup
+Bundler.require :default
 
 module Rack
   class IsItUp
