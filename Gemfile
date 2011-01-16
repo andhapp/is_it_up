@@ -1,7 +1,7 @@
 source :gemcutter
 
-gem "rack",       "1.1.0"
+gem "rack",       "1.2.1"
 
 group :test do
-  gem "rspec",    "1.3.0"
+  gem "rspec",    "2.4.0"
 end
